@@ -4,8 +4,7 @@
 permalink:           pretty
 
 # Setup
-title:               Pingster
-tagline:             'In his Pingdom'
+title:               Ping
 description:         'Welcom to Pingdom'
 url:                 https://github.com/pingzh
 baseurl:             'http://pingzh.github.io/'
