@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 48em) {
   .masthead-title {
-    text-align: right;
+    text-align: center;
   }
   .masthead-title small {
     display: none;
@@ -211,7 +211,7 @@ a.sidebar-nav-item:focus {
 }
 
 .share-page {
-  position: fixed;
+  position: absolute;
   top:  .8rem;
   right: 1rem;
   display: block;
@@ -220,6 +220,17 @@ a.sidebar-nav-item:focus {
   background-color: #fff;
   cursor: pointer;
 }
+
+.share-page .share-icon {
+  font-size: 25px;
+  color: #555555;
+}
+
+.share-page a:hover, a:focus {
+  text-decoration: none;
+}
+
+
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
@@ -263,6 +274,9 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 30.1em) {
   .sidebar-toggle {
+    position: fixed;
+  }
+  .share-page {
     position: fixed;
   }
 }
