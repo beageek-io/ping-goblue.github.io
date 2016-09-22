@@ -9,6 +9,7 @@ description:         'Welcom to Pingdom'
 url:                 https://github.com/pingzh
 baseurl:             'http://pingzh.github.io/'
 paginate:            5
+twitter_username:    "goblueping"
 
 # About/contact
 author:
