@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Ping Zhang
 description:         'Welcom to Pingdom'
-url:                 https://github.com/pingzh
+url:                 'http://blog.pingzhang.io'
 baseurl:             'http://pingzh.github.io/'
 paginate:            5
 twitter_username:    "goblueping"
