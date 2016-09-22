@@ -210,6 +210,17 @@ a.sidebar-nav-item:focus {
           user-select: none;
 }
 
+.share-page {
+  position: fixed;
+  top:  .8rem;
+  right: 1rem;
+  display: block;
+  padding: .25rem .75rem;
+  color: #505050;
+  background-color: #fff;
+  cursor: pointer;
+}
+
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
