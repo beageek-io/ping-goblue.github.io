@@ -4,8 +4,6 @@ title: Ruby parses CSV file to an array of hash with symbolized keys
 category: ruby
 ---
 
-### Read data from a csv file and convert the result into a array of hash with symbol keys
-
 ```
 require "csv"
 

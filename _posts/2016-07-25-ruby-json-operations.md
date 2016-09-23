@@ -4,9 +4,6 @@ title: Ruby JSON file operations
 category: ruby
 ---
 
-## Ruby JSON file operations
-
-
 #### 1. Parse json and symbolize keys
 
 ```
