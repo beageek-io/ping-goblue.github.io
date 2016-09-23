@@ -10,6 +10,7 @@ url:                 'http://blog.pingzhang.io'
 baseurl:             'http://pingzh.github.io/'
 paginate:            5
 twitter_username:    "goblueping"
+google_analytics:    "UA-84642254-1"
 
 # About/contact
 author:
