@@ -211,19 +211,15 @@ a.sidebar-nav-item:focus {
 }
 
 .share-page {
-  position: absolute;
-  top:  .8rem;
-  right: 1rem;
-  display: block;
-  padding: .25rem .75rem;
   color: #505050;
   background-color: #fff;
   cursor: pointer;
 }
 
 .share-page .share-icon {
-  font-size: 25px;
+  font-size: 40px;
   color: #555555;
+  padding-right: 36px;
 }
 
 .share-page a:hover, a:focus {
@@ -274,9 +270,6 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 30.1em) {
   .sidebar-toggle {
-    position: fixed;
-  }
-  .share-page {
     position: fixed;
   }
 }

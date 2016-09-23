@@ -6,6 +6,17 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+  <div class="share-page">
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
+      <i class="fa fa-twitter-square" style="font-size:34px; color:#21CBFF"></i> &nbsp
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
+      <i class="fa fa-facebook-square" style="font-size:34px; color:#3A57A1"></i> &nbsp
+    </a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">
+      <i class="fa fa-google-plus-square" style="font-size:34px; color:#D13C26"></i>
+    </a>
+  </div>
+
   <div id="disqus_thread"></div>
   <script>
 
