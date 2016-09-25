@@ -4,7 +4,7 @@ title: Ruby parses CSV file to an array of hash with symbolized keys
 category: ruby
 ---
 
-```
+```ruby
 require "csv"
 
 def parse_csv_return_array_of_hash(file_name)
@@ -23,7 +23,7 @@ year,month,date
 ```
 it will return the following result:
 
-```
+```ruby
 [
   {:year=>"2015", :month=>"01", :date=>"11"},
   {:year=>"2016", :month=>"01", :date=>"12"}

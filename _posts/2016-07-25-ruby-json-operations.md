@@ -6,7 +6,7 @@ category: ruby
 
 #### 1. Parse json and symbolize keys
 
-```
+```ruby
 require "json"
 def parse_json_with_symbolized_keys(filename)
   JSON.parse(File.read(filename), :symbolize_names => true)
@@ -20,14 +20,14 @@ $ cat hi.json
 {"hello":"world","ruby":["sinatra","rails"]}
 ```
 
-```
+```ruby
 [1] pry(main)> parse_json_with_symbolized_keys("hi.json")
 => {:hello=>"world", :ruby=>["sinatra", "rails"]}
 ```
 
 #### 2. Write a hash to a json file
 
-```
+```ruby
 require "json"
 
 def write_hash_to_json_file(hash, filename)
@@ -39,7 +39,7 @@ end
 
 E.g.
 
-```
+```ruby
 [9] pry(main)> hi = {:hello=>"world", :ruby=>["sinatra", "rails"]}
 => {:hello=>"world", :ruby=>["sinatra", "rails"]}
 [10] pry(main)> write_hash_to_json_file(hi, "hello.json")
@@ -53,7 +53,7 @@ $ cat hi.json
 
 #### 3. Now, I want a human readable json output file
 
-```
+```ruby
 require "json"
 
 def write_hash_to_pretty_json_file(hash, filename)
@@ -65,7 +65,7 @@ end
 
 E.g.
 
-```
+```ruby
 [19] pry(main)> hi = {:hello=>"world", :ruby=>["sinatra", "rails"]}
 => {:hello=>"world", :ruby=>["sinatra", "rails"]}
 [20] pry(main)> write_hash_to_pretty_json_file(hi, "pretty_hello.json")
