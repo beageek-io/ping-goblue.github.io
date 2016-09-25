@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Use passport facebook strategy with query parameters in the callback
+title: passport-facebook with query parameters in the callback
 category: javascript
 ---
 
