@@ -44,7 +44,7 @@ $ cat new_file.csv
 
 For more information about `xargs`, please see [here](http://www.thegeekstuff.com/2013/12/xargs-examples)
 
-**What if I want the new file to have a header? **
+**What if I want the new file to have a header?**
 
 Well, after you have the `new_file.csv`, you can insert the header into the beginning of the `new_file.csv`:
 
