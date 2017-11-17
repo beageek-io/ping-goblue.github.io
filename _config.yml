@@ -7,7 +7,7 @@ permalink:           pretty
 title:               Ping Zhang
 description:         "Welcom to Ping's blog"
 url:                 'http://blog.pingzhang.io'
-baseurl:             'http://pingzh.github.io/'
+baseurl:             'http://ping-goblue.github.io/'
 paginate:            5
 twitter_username:    "goblueping"
 google_analytics:    "UA-84642254-1"
